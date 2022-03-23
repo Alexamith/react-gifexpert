@@ -5,9 +5,87 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+  color: #FF6E4B;
+  font-family: 'Merriweather', serif;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+input{
+  width: 100%;
+  
+}
+
+.gif-container{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.gif-row{
+  width: 100%;
+}
+
+.gif-column{
+  background-color: cadetblue;
+  margin: 5px;
+  width: 20%;
+}
+.gif-column-title{
+  width: 100%;
+  padding: 10px 30px;
+}
+
+
+
+
+
+.gif-section-item{
+  width: 300px;
+  border: 1p solid black;
+  margin: 5px;
+  background-color: #EBEBEB;
+  border-radius: 5px;
+}
+
+.title-item{
+  border: 1p solid black;
+  text-align: center;
+  
+
+}
+.body-item{
+  align-items: center;
+}
+img{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.title-page{
+text-align: center;
+}
+.form-container{
+  width: 100%;
+}
+
+ form{
+  margin: 10px 50px;
+}
+
+input{
+  height: 30px;
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: #FF6E4B;
+  color: white !important;
+}
+
+.resultado-busqueda{
+  color: #FFCE4B;
 }
